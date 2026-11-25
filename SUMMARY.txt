@@ -1,0 +1,40 @@
+FOOTBALLCHI - PITCHAPI COMPREHENSIVE AUDIT
+Generated UTC: 2026-11-25 18:38:17
+Requests sent: 19
+HTTP/JSON successful: 19
+Failed/empty responses: 0
+Total response bytes: 330,966
+Catalogue leagues: 77
+League season endpoints successful: 0
+Matches returned across latest seasons (not de-duplicated): 
+Played matches: 
+Upcoming matches: 
+Live-status matches: 
+Unique fixture IDs collected from league/date endpoints: 209
+Date endpoints contributed matches: 209
+Sample finished match: Saudi First Division: Al-Ula FC vs Al-Adalah [m_2hyPZV]
+Sample upcoming match: 
+Sample live match: No active match was found in the catalogue/date sample at test time; live endpoint not called.
+Stopped after 429: False
+
+IMPORTANT NOTES:
+- A successful HTTP response proves endpoint access, not that every league has complete or fresh coverage.
+- Compare LEAGUES.csv against FootballChi 50-league configuration to calculate exact overlap.
+- Use SEASON_COVERAGE.csv to assess fixtures/results by league; use detailed endpoint rows for lineups/events/stats availability.
+- A 404 ANALYTICS_UNAVAILABLE is normal for a match not rated by the event feed; it is not an invalid match ID.
+- Predicted lineups must be distinguished from confirmed lineups using confirmed=false/true.
+- No API key was written into any report or raw response file.
+
+DETAILED SAMPLE ENDPOINT TESTS:
+{"Endpoint":"Finished_Match_Summary","HttpStatus":200,"Success":true,"ErrorCode":"","Bytes":797,"Seconds":19.69}
+{"Endpoint":"Finished_Events","HttpStatus":200,"Success":true,"ErrorCode":"","Bytes":7279,"Seconds":0.26}
+{"Endpoint":"Finished_Lineups","HttpStatus":200,"Success":true,"ErrorCode":"","Bytes":5947,"Seconds":0.26}
+{"Endpoint":"Finished_Team_Stats","HttpStatus":200,"Success":true,"ErrorCode":"","Bytes":12157,"Seconds":19.84}
+{"Endpoint":"Finished_Player_Stats","HttpStatus":200,"Success":true,"ErrorCode":"","Bytes":76148,"Seconds":0.74}
+{"Endpoint":"Finished_Shots_xG","HttpStatus":200,"Success":true,"ErrorCode":"","Bytes":9232,"Seconds":24.58}
+{"Endpoint":"Finished_Momentum","HttpStatus":200,"Success":true,"ErrorCode":"","Bytes":45,"Seconds":0.22}
+{"Endpoint":"Finished_HeadToHead","HttpStatus":200,"Success":true,"ErrorCode":"","Bytes":866,"Seconds":0.19}
+{"Endpoint":"Finished_Advanced_Team_Analytics","HttpStatus":200,"Success":true,"ErrorCode":"","Bytes":2751,"Seconds":19.8}
+{"Endpoint":"Finished_Advanced_Player_Analytics","HttpStatus":200,"Success":true,"ErrorCode":"","Bytes":27711,"Seconds":0.49}
+{"Endpoint":"Finished_Pass_Network","HttpStatus":200,"Success":true,"ErrorCode":"","Bytes":22606,"Seconds":21.88}
+{"Endpoint":"Finished_Heatmaps","HttpStatus":200,"Success":true,"ErrorCode":"","Bytes":14362,"Seconds":19.91}

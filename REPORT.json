@@ -1,0 +1,120 @@
+{
+    "generated_utc":  "2026-11-25T18:38:17.3220754Z",
+    "request_count":  19,
+    "success_count":  19,
+    "failed_count":  0,
+    "response_bytes":  330966,
+    "catalogue_league_count":  77,
+    "league_seasons_successful":  0,
+    "league_match_count_total":  null,
+    "played_match_count":  null,
+    "upcoming_match_count":  null,
+    "live_status_match_count":  null,
+    "unique_fixture_count":  209,
+    "date_endpoint_match_count":  209,
+    "stopped_after_429":  false,
+    "samples":  {
+                    "FinishedMatch":  "Saudi First Division: Al-Ula FC vs Al-Adalah [m_2hyPZV]",
+                    "UpcomingMatch":  "",
+                    "LiveMatch":  "No active match was found in the catalogue/date sample at test time; live endpoint not called.",
+                    "DetailedTests":  [
+                                          {
+                                              "Endpoint":  "Finished_Match_Summary",
+                                              "HttpStatus":  200,
+                                              "Success":  true,
+                                              "ErrorCode":  "",
+                                              "Bytes":  797,
+                                              "Seconds":  19.69
+                                          },
+                                          {
+                                              "Endpoint":  "Finished_Events",
+                                              "HttpStatus":  200,
+                                              "Success":  true,
+                                              "ErrorCode":  "",
+                                              "Bytes":  7279,
+                                              "Seconds":  0.26
+                                          },
+                                          {
+                                              "Endpoint":  "Finished_Lineups",
+                                              "HttpStatus":  200,
+                                              "Success":  true,
+                                              "ErrorCode":  "",
+                                              "Bytes":  5947,
+                                              "Seconds":  0.26
+                                          },
+                                          {
+                                              "Endpoint":  "Finished_Team_Stats",
+                                              "HttpStatus":  200,
+                                              "Success":  true,
+                                              "ErrorCode":  "",
+                                              "Bytes":  12157,
+                                              "Seconds":  19.84
+                                          },
+                                          {
+                                              "Endpoint":  "Finished_Player_Stats",
+                                              "HttpStatus":  200,
+                                              "Success":  true,
+                                              "ErrorCode":  "",
+                                              "Bytes":  76148,
+                                              "Seconds":  0.74
+                                          },
+                                          {
+                                              "Endpoint":  "Finished_Shots_xG",
+                                              "HttpStatus":  200,
+                                              "Success":  true,
+                                              "ErrorCode":  "",
+                                              "Bytes":  9232,
+                                              "Seconds":  24.58
+                                          },
+                                          {
+                                              "Endpoint":  "Finished_Momentum",
+                                              "HttpStatus":  200,
+                                              "Success":  true,
+                                              "ErrorCode":  "",
+                                              "Bytes":  45,
+                                              "Seconds":  0.22
+                                          },
+                                          {
+                                              "Endpoint":  "Finished_HeadToHead",
+                                              "HttpStatus":  200,
+                                              "Success":  true,
+                                              "ErrorCode":  "",
+                                              "Bytes":  866,
+                                              "Seconds":  0.19
+                                          },
+                                          {
+                                              "Endpoint":  "Finished_Advanced_Team_Analytics",
+                                              "HttpStatus":  200,
+                                              "Success":  true,
+                                              "ErrorCode":  "",
+                                              "Bytes":  2751,
+                                              "Seconds":  19.8
+                                          },
+                                          {
+                                              "Endpoint":  "Finished_Advanced_Player_Analytics",
+                                              "HttpStatus":  200,
+                                              "Success":  true,
+                                              "ErrorCode":  "",
+                                              "Bytes":  27711,
+                                              "Seconds":  0.49
+                                          },
+                                          {
+                                              "Endpoint":  "Finished_Pass_Network",
+                                              "HttpStatus":  200,
+                                              "Success":  true,
+                                              "ErrorCode":  "",
+                                              "Bytes":  22606,
+                                              "Seconds":  21.88
+                                          },
+                                          {
+                                              "Endpoint":  "Finished_Heatmaps",
+                                              "HttpStatus":  200,
+                                              "Success":  true,
+                                              "ErrorCode":  "",
+                                              "Bytes":  14362,
+                                              "Seconds":  19.91
+                                          }
+                                      ]
+                },
+    "note":  "API key intentionally excluded."
+}
